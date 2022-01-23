@@ -1,0 +1,10 @@
+server.port: 9001
+rmq.host: localhost
+template.url: localhost
+
+watch.delay: 3000
+
+external:
+  servers:
+    s1: localhost:9051
+    s2: localhost:9052
